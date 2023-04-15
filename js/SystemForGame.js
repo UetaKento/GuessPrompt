@@ -149,7 +149,7 @@ function game_playing(input_id, btn_id, skip_btn_id, display_id, message_id, que
 
     //スキップボタンを押したときの処理
     skip_btn.addEventListener('click', () => {
-        img_obj = img_apperance();
+        img_obj = img_apperance(list);
         display.innerHTML = '<img src=' + img_obj.path + ' width=100%/>';
         question.innerHTML = 'この画像が意味する' + img_obj.janre + 'は？';
     })
