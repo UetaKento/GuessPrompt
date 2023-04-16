@@ -235,14 +235,14 @@ function result_announcement(score_display, comment_display, img_display){
                 img = value;
             }
         });
-        result_img = "<div class='col-3 mt-1 mb-1'><img src=" + img.path + " width=100%><div>" + img.answer + "</div></div>";
+        result_img = "<div class='col-md-2 col-3 mt-1 mb-1'><img src=" + img.path + " width=100%><div>" + img.answer + "</div></div>";
         for(let i = 1; i < img_array.length; i++){
             img_list.forEach((value) => {
                 if(value.number == Number(img_array[i])){
                     img = value;
                 }
             });
-            result_img += "<div class='col-3 mt-1 mb-1'><img src=" + img.path + " width=100%><div>" + img.answer + "</div></div>";
+            result_img += "<div class='col-md-2 col-3 mt-1 mb-1'><img src=" + img.path + " width=100%><div>" + img.answer + "</div></div>";
         }
     }
     
