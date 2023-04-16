@@ -113,7 +113,7 @@ function make_junre_list(){
         })
     }else if(junre == "kotowaza"){
         img_list.forEach((value) => {
-            if(value.junre == "ことわざ"){
+            if(value.janre == "ことわざ"){
                 junre_list.push(value);
             }
         })
