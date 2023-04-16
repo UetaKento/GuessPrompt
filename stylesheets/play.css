@@ -9,12 +9,14 @@ body{
 }
 
 .time-info{ 
-    display: flex;
-    justify-content: center;
     padding-right: 20px;
 }
 
 .answer-info{
     display: flex;
     justify-content: center;
+}
+
+footer{
+    background-color:gray;
 }
