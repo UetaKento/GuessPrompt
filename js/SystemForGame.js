@@ -18,15 +18,46 @@ const img05 = new generatedImg(5, '泣きっ面に蜂', 'image/NakitturaniHachi_
 const img06 = new generatedImg(6, '猫に小判', 'image/NekoniKoban_2.jpg', 'ことわざ');
 const img07 = new generatedImg(7, '猿も木から落ちる', 'image/SarumoKikaraOtiru_2.jpg', 'ことわざ');
 const img08 = new generatedImg(8, '時は金なり', 'image/TokihaKanenari.jpg', 'ことわざ');
-const img09 = new generatedImg(9, '豚に真珠', 'image/ButaniShinju_2.jpg', 'ことわざ');
+const img09 = new generatedImg(9, '豚に真珠', 'image/ButaniShinzyu_2.jpg', 'ことわざ');
 const img10 = new generatedImg(10, '井の中の蛙大海を知らず', 'image/InonakanoKaeru.jpg', 'ことわざ');
-const img11 = new generatedImg(11, '鬼に金棒', 'image/OniniKnabou.jpg', 'ことわざ');
+const img11 = new generatedImg(11, '鬼に金棒', 'image/OniniKanabou.jpg', 'ことわざ');
 const img12 = new generatedImg(12, '焼け石に水', 'image/YakeishiniMizu.jpg', 'ことわざ');
 const img13 = new generatedImg(13, '名探偵コナン', 'image/MeitanteiKonan.jpg', '漫画、アニメ');
 const img14 = new generatedImg(14, '桃太郎', 'image/Momotaro.jpg', '物語');
 const img15 = new generatedImg(15, '白雪姫', 'image/ShirayukiHime_2.jpg', '物語');
+const img16 = new generatedImg(16, '赤ずきん', 'image/Akazukin.jpg', '物語');
+const img17 = new generatedImg(17, '飼い犬に手を嚙まれる', 'image/BittenByDog.jpg', 'ことわざ');
+const img18 = new generatedImg(18, 'チェーンソーマン', 'image/ChainsawMan.jpg', '漫画、アニメ');
+const img19 = new generatedImg(19, 'シンデレラ', 'image/Cinderella.jpg', '物語');
+const img20 = new generatedImg(20, 'デビルマン', 'image/Devilman.jpg', '漫画、アニメ');
+const img21 = new generatedImg(21, 'どんぐりの背比べ', 'image/Dongurinoseikurabe.jpg', 'ことわざ');
+const img22 = new generatedImg(22, 'ドラえもん', 'image/Doraemon.jpg', '漫画、アニメ');
+const img23 = new generatedImg(23, '塵も積もれば山となる', 'image/DustMountain.jpg', 'ことわざ');
+const img24 = new generatedImg(24, '鋼の錬金術師', 'image/HaganenoRenkinjutsushi.jpg', '漫画、アニメ');
+const img25 = new generatedImg(25, 'ハンターハンター', 'image/HunterHunter.jpg', '漫画、アニメ');
+const img26 = new generatedImg(26, 'ジョジョの奇妙な冒険', 'image/JoJo.jpg', '漫画、アニメ');
+const img27 = new generatedImg(27, '鬼滅の刃', 'image/Kimetsunoyaiba.jpg', '漫画、アニメ');
+const img28 = new generatedImg(28, '君の名は。', 'image/Kiminonawa.jpg', '漫画、アニメ');
+const img29 = new generatedImg(29, '金太郎', 'image/Kintaro.jpg', '物語');
+const img30 = new generatedImg(30, 'ルパン三世', 'image/LupinTheThird.jpg', '漫画、アニメ');
+const img31 = new generatedImg(31, '七つの大罪', 'image/NanatsunoTaizai.jpg', '漫画、アニメ');
+const img32 = new generatedImg(32, 'プリキュア', 'image/PrettyCure.jpg', '漫画、アニメ');
+const img33 = new generatedImg(33, 'うさぎとかめ', 'image/RabitTurtle.jpg', '物語');
+const img34 = new generatedImg(34, '天空の城ラピュタ', 'image/Rapyuta.jpg', '漫画、アニメ');
+const img35 = new generatedImg(35, '千と千尋の神隠し', 'image/SentoChihironoKamikakushi.jpg', '漫画、アニメ');
+const img36 = new generatedImg(36, '進撃の巨人', 'image/ShingekinoKyojin.jpg', '漫画、アニメ');
+const img37 = new generatedImg(37, '三匹の子豚', 'image/ThreePigs.jpg', '物語');
+const img38 = new generatedImg(38, '灯台下暗し', 'image/Toudaimotokurashi.jpg', 'ことわざ');
+const img39 = new generatedImg(39, '二階から目薬', 'image/EyeDrop.jpg', 'ことわざ');
+const img40 = new generatedImg(40, '火のない所に煙は立たぬ', 'image/FireSmoke.jpg', 'ことわざ');
+const img41 = new generatedImg(41, '能ある鷹は爪を隠す', 'image/HawkClaws.jpg', 'ことわざ');
+const img42 = new generatedImg(42, '下手な鉄砲数撃ちゃ当たる', 'image/HetanaTeppou.jpg', 'ことわざ');
+const img43 = new generatedImg(43, '可愛い子には旅をさせよ', 'image/LoveYourChild.jpg', 'ことわざ');
+const img44 = new generatedImg(44, '海老で鯛を釣る', 'image/ShrimpFish.jpg', 'ことわざ');
+
+
 //リストに格納
-const img_list = [img01, img02,img03, img04, img05, img06, img07, img08, img09, img10, img11, img12, img13, img14, img15];
+const img_list = [img01, img02,img03, img04, img05, img06, img07, img08, img09, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38];
 const used_img = [];
 
 //正答数
