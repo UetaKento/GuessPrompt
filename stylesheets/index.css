@@ -1,6 +1,10 @@
   body{
     background-color: #749ac4;
     color:white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
   }
   
   .display-3{
@@ -8,9 +12,30 @@
     text-shadow: 8px 8px 16px #1a1a1a;
   }
 
-   footer{
-    background-color:#425770;
+  .form-select{
+    width:15%;
+    background-color:rgb(255, 255, 255,0.2);
+    border:none;
+    color:#425770;
   }
+
+  .genre{
+    color:#425770;
+  }
+
+
+ .footer{
+   width: 100%;
+   height:50px;
+   position: absolute;/*←絶対位置*/
+   bottom: 0; /*下に固定*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+   color: white;
+   background-color: #425770;;
+ }
 
   @media screen {
     .bg {
@@ -23,4 +48,117 @@
       background-color: #749ac4;
       margin-top: 0;
     }  
+}
+
+section {
+  max-width: 15%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.start-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+.start-button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: rgb(255, 255, 255,0.2);
+  box-sizing: border-box;
+  color:#425770;
+  font-size:20px;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+  box-shadow: 0px 5px 12px rgb(255, 255, 255,0.3), -6px -6px 12px #749ac4;
+  border:solid 0.6px #e6e6e6;
+  border-radius: 10px;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  transition-duration: 0.2s;
+}
+.start-button:hover span {
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 4px rgb(255, 255, 255,0.3), -2px -2px 4px #749ac4;
+}
+
+
+
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+#splash {
+  /*fixedで全面に固定*/
+position: fixed;
+width: 100%;
+height: 100%;
+z-index: 999;
+background: #333333;
+text-align:center;
+color:#fff;
+}
+
+/* Loading画像中央配置　*/
+#splash_logo {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+/* Loading アイコンの大きさ設定　*/
+#splash_logo img {
+width:260px;
+}
+
+/* fadeUpをするアイコンの動き */
+
+.fadeUp{
+animation-name: fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity: 0;
+}
+
+@keyframes fadeUpAnime{
+from {
+  opacity: 0;
+transform: translateY(0);
+}
+
+to {
+  opacity: 1;
+transform: translateY(0);
+}
+}
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+container{
+  width:100%;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a{
+  color: #000000;
+}
+
+a:hover{
+   text-decoration: none;   
 }
