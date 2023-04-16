@@ -111,7 +111,8 @@ function game_playing(input_id, btn_id, skip_btn_id, display_id, message_id, que
 
     //画像と問題文を表示
     display.innerHTML = '<img src=' + img_obj.path + ' width=100%/>';
-    question.innerHTML = 'この画像が意味する' + img_obj.janre + 'は？';
+    // question.innerHTML = 'この画像が意味する' + img_obj.janre + 'は？';
+    question.innerHTML = 'What is the prompt？';
 
     //スコアを表示
     document.getElementById(score_id).innerHTML = score;
@@ -151,7 +152,8 @@ function game_playing(input_id, btn_id, skip_btn_id, display_id, message_id, que
     skip_btn.addEventListener('click', () => {
         img_obj = img_apperance(list);
         display.innerHTML = '<img src=' + img_obj.path + ' width=100%/>';
-        question.innerHTML = 'この画像が意味する' + img_obj.janre + 'は？';
+        // question.innerHTML = 'この画像が意味する' + img_obj.janre + 'は？';
+        question.innerHTML = 'What is the prompt？';
     })
 
 }
