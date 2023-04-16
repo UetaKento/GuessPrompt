@@ -1,8 +1,14 @@
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(60, 60, 60);
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 50px;
+    box-sizing: border-box;
 }
 
 footer{
     background-color:gray;
+    position: absolute;
+    bottom: 0;
 }
