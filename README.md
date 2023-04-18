@@ -4,3 +4,4 @@
 ## デプロイサイト
 https://dreamy-dodol-0a434d.netlify.app/
 ## 発表スライド
+https://docs.google.com/presentation/d/1cswrMxeC85Z8RGZsSvhAC0MNKgHEBYxtvZfuGzWQlKA/edit?usp=sharing
